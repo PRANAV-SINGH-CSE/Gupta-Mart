@@ -1,5 +1,6 @@
 import './globals.css';
 import ClientProviders from '../components/ClientProviders';
+import Script from 'next/script';
 
 export const metadata = {
   title: 'Gupta Mart - 12-Minute Farm-Fresh Grocery Delivery',
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         <ClientProviders>
           {children}
         </ClientProviders>
+        <Script src="https://checkout.razorpay.com/v1/checkout.js" strategy="lazyOnload" />
       </body>
     </html>
   );

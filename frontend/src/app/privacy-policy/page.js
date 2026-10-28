@@ -1,5 +1,5 @@
 'use client';
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
 import PrivacyPolicy from '../../views/PrivacyPolicy';
 import { PageSkeletonLoader } from '../../components/SkeletonLoader';
 

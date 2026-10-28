@@ -1,5 +1,5 @@
 'use client';
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
 import DashboardPage from '../../views/DashboardPage';
 import { PageSkeletonLoader } from '../../components/SkeletonLoader';
 

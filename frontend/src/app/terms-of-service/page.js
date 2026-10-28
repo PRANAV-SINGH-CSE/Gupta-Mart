@@ -1,5 +1,5 @@
 'use client';
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
 import TermsOfService from '../../views/TermsOfService';
 import { PageSkeletonLoader } from '../../components/SkeletonLoader';
 
